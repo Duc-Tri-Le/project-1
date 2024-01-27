@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: Tahoma;
+  font-size: 40px;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.box {
+  width: 100px;
+  height: 150px;
+  display: inline-block;
+  background-color: #eeeff2;
+  border-left: 10px dotted #d0d0ff;
+  padding-left: 10px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.box3 {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.box:hover {
+  background-color: yellow;
+  color: goldenrod;
+}
